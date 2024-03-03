@@ -410,6 +410,102 @@ DESCRIPTION 4
 
 */
 
+.description4__container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    padding-top: 100px;
+    height: 100vh;
+}
+
+.description4__info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.description4__h1 h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.description4__info2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.affordable__title--wrapper {
+    width: 100%;
+}
+
+.affordable__logo--wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dollar {
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 9999px;
+    padding: 10px;
+}
+
+.affordable__logo--wrapper p {
+    display: flex;
+    align-items: center;
+    padding-right: 8px;
+    color: black;
+    font-weight: bold;
+}
+
+.description4__professionalism {
+    margin-left: 20px;
+}
+
+.professionalism__title--wrapper {
+    width: 100%;
+}
+
+.professionalism__logo--wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.suitcase {
+    background-color: green;
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 9999px;
+}
+
+.professionalism__logo--wrapper p {
+    display: flex;
+    align-items: center;
+    padding-right: 8px;
+    color: black;
+    font-weight: bold;
+}
+
+.description4__img img {
+    width: 100%;
+}
+
+.btn4 {
+    cursor: pointer;
+    border: solid rgb(100, 21, 255);
+    border-radius: 9999px;
+    padding: 12px 32px;
+    color: white;
+    background-color: rgb(100, 21, 255);
+    transition: all 300ms ease;
+}
+
+.btn4:hover {
+    border: solid rgb(80, 17, 204);
+    background-color: rgb(80, 17, 204);
+}
+
 
 
 
